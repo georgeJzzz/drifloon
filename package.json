@@ -5,6 +5,7 @@
 	"scripts": {
 		"build": "npx webpack",
 		"watch": "npx webpack -w",
+		"doc": "npx typedoc src/main.ts",
 		"test": "npx ava"
 	},
 	"homepage": "https://github.com/kalxd/drifloon",
@@ -25,6 +26,7 @@
 		"ava-fast-check": "^4.0.0",
 		"fast-check": "^2.6.1",
 		"ts-loader": "^8.1.0",
+		"typedoc": "^0.20.35",
 		"typescript": "^4.2.3",
 		"webpack": "^5.30.0",
 		"webpack-cli": "^4.3.0"

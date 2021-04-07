@@ -2,7 +2,7 @@ const path = require("path");
 const pkg = require("./package.json");
 
 const config = {
-	entry: "./drifloon/main.ts",
+	entry: "./src/main.ts",
 	mode: "production",
 	output: {
 		path: path.resolve("./dist"),

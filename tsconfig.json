@@ -1,17 +1,19 @@
 {
 	"compilerOptions": {
-		"rootDir": "./drifloon",
+		"rootDir": "./src",
+		"baseUrl": "./src",
+		"outDir": "./built",
 		"allowJs": false,
 		"target": "es2020",
-		"module": "es6",
 		"moduleResolution": "Node",
 		"noImplicitAny": true,
 		"noImplicitThis": true,
 		"strictFunctionTypes": true,
+		"strictNullChecks": true,
 		"lib": [
 			"es2020",
 			"dom"
 		]
 	},
-	"include": ["drifloon/**/*.ts"]
+	"include": ["src/**/*.ts"]
 }
